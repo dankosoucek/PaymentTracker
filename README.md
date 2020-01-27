@@ -1,5 +1,5 @@
 Prerequisities
-1. JRE 8 Installed. For installation follow this link
+1. JRE 8 Installed. For installation follow this link https://www.oracle.com/technetwork/java/javase/documentation/install-windows-64--153423.html
 2. Apache Maven 3.6.0 or higher installed. For installation follow this link https://mkyong.com/tutorials/maven-tutorials/
 
 Installation and run
