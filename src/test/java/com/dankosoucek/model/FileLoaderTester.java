@@ -3,9 +3,7 @@ package com.dankosoucek.model;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Arrays;
-import java.util.function.Consumer;
 import java.util.stream.Stream;
 
 import org.junit.jupiter.api.Test;
@@ -14,19 +12,12 @@ import com.dankosoucek.view.OutputWriter;
 
 import mockit.Expectations;
 import mockit.Mocked;
-import mockit.Tested;
 import mockit.Verifications;
 
 public class FileLoaderTester {
 
     @Mocked
     private Files files;
-
-//    @Mocked
-//    private Paths paths;
-
-//    @Mocked
-//    private PaymentProcessor paymentProcessor;
 
     @Mocked
     private OutputWriter outputWriter;
